@@ -3,9 +3,9 @@ from pydantic import BaseModel
 from typing import List
 import openai
 import os
-from auth import get_credentials
-from assignmentSvc import get_service, get_student_assignments
-from intent import parse_intent
+from service.gcpAuthorization import get_credentials
+from service.assignmentSvc import get_service, get_student_assignments
+from service.intent import parse_intent
 from datetime import datetime
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
