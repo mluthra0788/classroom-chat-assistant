@@ -1,6 +1,6 @@
 fastapi~=0.112.2
 uvicorn~=0.32.1
-openai~=0.28.1
+openai~=0.28.0
 google-auth
 google-auth-oauthlib
 google-api-python-client~=2.169.0
